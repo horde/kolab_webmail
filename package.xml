@@ -10,7 +10,7 @@
   <email>wrobel@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-10-13</date>
+ <date>2017-10-16</date>
  <version>
   <release>4.0.0alpha1</release>
   <api>4.0.0alpha1</api>
@@ -75,6 +75,7 @@
       <file name="20-kolab.xml" role="horde" />
      </dir> <!-- /ingo/config/conf.d -->
     </dir> <!-- /ingo/config -->
+    <file name=".gitattributes" role="horde" />
    </dir> <!-- /ingo -->
    <dir name="kronolith">
     <dir name="config">
@@ -127,7 +128,7 @@
     </dir> <!-- /turba/config -->
    </dir> <!-- /turba -->
    <file name="COPYING" role="doc" />
-   <file name="README" role="doc" />
+   <file name="README.rst" role="doc" />
   </dir> <!-- / -->
  </contents>
  <dependencies>
@@ -262,7 +263,7 @@
  <phprelease>
   <filelist>
    <install as="COPYING" name="COPYING" />
-   <install as="README" name="README" />
+   <install as="README.rst" name="README.rst" />
    <install as="kolab-webmail-install" name="bin/kolab-webmail-install" />
    <install as="config/hooks.php" name="config/hooks.php" />
    <install as="config/conf.d/20-kolab.xml" name="config/conf.d/20-kolab.xml" />
@@ -280,6 +281,7 @@
    <install as="imp/config/conf.d/10-webmail.xml" name="imp/config/conf.d/10-webmail.xml" />
    <install as="imp/config/conf.d/20-kolab.php" name="imp/config/conf.d/20-kolab.php" />
    <install as="imp/config/prefs.d/10-webmail.php" name="imp/config/prefs.d/10-webmail.php" />
+   <install as="ingo/.gitattributes" name="ingo/.gitattributes" />
    <install as="ingo/config/backends.d/20-kolab.php" name="ingo/config/backends.d/20-kolab.php" />
    <install as="ingo/config/conf.d/20-kolab.xml" name="ingo/config/conf.d/20-kolab.xml" />
    <install as="kronolith/config/conf.d/10-webmail.xml" name="kronolith/config/conf.d/10-webmail.xml" />
@@ -308,7 +310,7 @@
     <release>alpha</release>
     <api>alpha</api>
    </stability>
-   <date>2017-10-13</date>
+   <date>2017-10-16</date>
    <license uri="http://www.horde.org/licenses/gpl">GPL-2.0</license>
    <notes>
 * First release candidate of Horde Groupware Kolab Edition 4.0.
