@@ -10,7 +10,7 @@
   <email>wrobel@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-03-20</date>
+ <date>2017-10-13</date>
  <version>
   <release>4.0.0alpha1</release>
   <api>4.0.0alpha1</api>
@@ -43,14 +43,14 @@
     </dir> <!-- /config/registry.d -->
     <file name="hooks.php" role="horde" />
    </dir> <!-- /config -->
-   <dir name="docs">
+   <dir name="doc">
     <file name="CHANGES" role="doc" />
     <file name="INSTALL" role="doc" />
     <file name="PERFORMANCE" role="doc" />
     <file name="RELEASE_NOTES" role="doc" />
     <file name="TODO" role="doc" />
     <file name="UPGRADING" role="doc" />
-   </dir> <!-- /docs -->
+   </dir> <!-- /doc -->
    <dir name="imp">
     <dir name="config">
      <dir name="backends.d">
@@ -261,6 +261,7 @@
  </usesrole>
  <phprelease>
   <filelist>
+   <install as="COPYING" name="COPYING" />
    <install as="README" name="README" />
    <install as="kolab-webmail-install" name="bin/kolab-webmail-install" />
    <install as="config/hooks.php" name="config/hooks.php" />
@@ -268,12 +269,12 @@
    <install as="config/prefs.d/10-webmail.php" name="config/prefs.d/10-webmail.php" />
    <install as="config/prefs.d/20-kolab.php" name="config/prefs.d/20-kolab.php" />
    <install as="config/registry.d/20-kolab.php" name="config/registry.d/20-kolab.php" />
-   <install as="CHANGES" name="docs/CHANGES" />
-   <install as="INSTALL" name="docs/INSTALL" />
-   <install as="PERFORMANCE" name="docs/PERFORMANCE" />
-   <install as="RELEASE_NOTES" name="docs/RELEASE_NOTES" />
-   <install as="TODO" name="docs/TODO" />
-   <install as="UPGRADING" name="docs/UPGRADING" />
+   <install as="CHANGES" name="doc/CHANGES" />
+   <install as="INSTALL" name="doc/INSTALL" />
+   <install as="PERFORMANCE" name="doc/PERFORMANCE" />
+   <install as="RELEASE_NOTES" name="doc/RELEASE_NOTES" />
+   <install as="TODO" name="doc/TODO" />
+   <install as="UPGRADING" name="doc/UPGRADING" />
    <install as="imp/config/hooks.php" name="imp/config/hooks.php" />
    <install as="imp/config/backends.d/20-kolab.php" name="imp/config/backends.d/20-kolab.php" />
    <install as="imp/config/conf.d/10-webmail.xml" name="imp/config/conf.d/10-webmail.xml" />
@@ -293,7 +294,6 @@
    <install as="turba/config/hooks.php" name="turba/config/hooks.php" />
    <install as="turba/config/backends.d/20-kolab.php" name="turba/config/backends.d/20-kolab.php" />
    <install as="turba/config/conf.d/10-webmail.xml" name="turba/config/conf.d/10-webmail.xml" />
-   <install as="COPYING" name="COPYING" />
    <install as="turba/config/conf.d/20-kolab.xml" name="turba/config/conf.d/20-kolab.xml" />
    <install as="turba/config/prefs.d/20-kolab.php" name="turba/config/prefs.d/20-kolab.php" />
   </filelist>
@@ -308,7 +308,7 @@
     <release>alpha</release>
     <api>alpha</api>
    </stability>
-   <date>2017-03-20</date>
+   <date>2017-10-13</date>
    <license uri="http://www.horde.org/licenses/gpl">GPL-2.0</license>
    <notes>
 * First release candidate of Horde Groupware Kolab Edition 4.0.

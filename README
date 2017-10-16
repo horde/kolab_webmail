@@ -42,9 +42,9 @@ The following documentation is available in the Horde Groupware Kolab Edition
 distribution:
 
 :README_:            This file
-:`docs/CHANGES`_:    Changes by release
-:`docs/INSTALL`_:    Installation instructions and notes
-:`docs/UPGRADING`_:  Pointers on upgrading from previous Horde Groupware Kolab
+:`doc/CHANGES`_:    Changes by release
+:`doc/INSTALL`_:    Installation instructions and notes
+:`doc/UPGRADING`_:  Pointers on upgrading from previous Horde Groupware Kolab
                      Edition versions
 
 
@@ -52,7 +52,7 @@ Installation
 ------------
 
 Instructions for installing Horde Groupware Kolab Edition can be found in the
-file INSTALL_ in the ``docs/`` directory of the Horde Groupware Kolab Edition
+file INSTALL_ in the ``doc/`` directory of the Horde Groupware Kolab Edition
 distribution.
 
 
@@ -94,7 +94,7 @@ The Horde Groupware Kolab Edition team
 
 
 .. _README: README
-.. _docs/CHANGES: CHANGES
+.. _doc/CHANGES: CHANGES
 .. _INSTALL:
-.. _docs/INSTALL: INSTALL
-.. _docs/UPGRADING: UPGRADING
+.. _doc/INSTALL: INSTALL
+.. _doc/UPGRADING: UPGRADING
