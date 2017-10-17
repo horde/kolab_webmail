@@ -41,7 +41,7 @@ Documentation
 The following documentation is available in the Horde Groupware Kolab Edition
 distribution:
 
-:README_:            This file
+:README_:           This file
 :`doc/CHANGES`_:    Changes by release
 :`doc/INSTALL`_:    Installation instructions and notes
 :`doc/UPGRADING`_:  Pointers on upgrading from previous Horde Groupware Kolab
@@ -84,9 +84,9 @@ appearances on IRC, on the channel #horde on the freenode Network
 Licensing
 ---------
 
-For licensing and copyright information, please see the file COPYING in the
-Horde Groupware Kolab Edition distribution and the COPYING and LICENSE files in
-the `kronolith`, `turba`, `nag` and `mnemo` subdirectories.
+For licensing and copyright information, please see the file LICENSE in the
+Horde Groupware Kolab Edition distribution and the LICENSE files in the
+`kronolith`, `turba`, `nag` and `mnemo` subdirectories.
 
 Thanks,
 
