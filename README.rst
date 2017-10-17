@@ -93,8 +93,8 @@ Thanks,
 The Horde Groupware Kolab Edition team
 
 
-.. _README: README
-.. _doc/CHANGES: CHANGES
+.. _README: README.rst
+.. _doc/CHANGES: doc/CHANGES
 .. _INSTALL:
-.. _doc/INSTALL: INSTALL
-.. _doc/UPGRADING: UPGRADING
+.. _doc/INSTALL: doc/INSTALL
+.. _doc/UPGRADING: doc/UPGRADING
