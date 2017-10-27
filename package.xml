@@ -21,7 +21,7 @@
  </stability>
  <license uri="http://www.horde.org/licenses/gpl">GPL-2.0</license>
  <notes>
-* First release candidate of Horde Kolab Edition 4.0.
+* First release candidate of Horde Groupware Kolab Edition 4.0.
  </notes>
  <contents>
   <dir baseinstalldir="/" name="/">
@@ -309,7 +309,7 @@
    <date>2017-10-27</date>
    <license uri="http://www.horde.org/licenses/gpl">GPL-2.0</license>
    <notes>
-* First release candidate of Horde Kolab Edition 4.0.
+* First release candidate of Horde Groupware Kolab Edition 4.0.
    </notes>
   </release>
  </changelog>
