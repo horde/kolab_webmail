@@ -1,0 +1,12 @@
+---
+4.0.0alpha1:
+  api: 4.0.0alpha1
+  state:
+    release: alpha
+    api: alpha
+  date: 2017-10-17
+  license:
+    identifier: GPL-2.0
+    uri: http://www.horde.org/licenses/gpl
+  notes: |
+    First release candidate of Horde Groupware Kolab Edition 4.0.
