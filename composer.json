@@ -1,0 +1,52 @@
+{
+    "name": "horde/kolab-webmail",
+    "description": "Horde Kolab Edition",
+    "type": "library",
+    "homepage": "https://pear.horde.org",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Gunnar Wrobel",
+            "email": "wrobel@horde.org",
+            "role": "lead"
+        }
+    ],
+    "version": "4.0.0alpha1",
+    "time": "2017-10-27",
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "https://pear.horde.org"
+        }
+    ],
+    "require": {
+        "php": "^5.2",
+        "pear-pear.horde.org/groupware": "*",
+        "pear-pear.horde.org/webmail": "*",
+        "pear-pear.horde.org/content": "^1 <=2.0.0",
+        "pear-pear.horde.org/horde": "^4.0.7 <=5.0.0",
+        "pear-pear.horde.org/imp": "^5.0.8 <=6.0.0",
+        "pear-pear.horde.org/ingo": "^2.0.3 <=3.0.0",
+        "pear-pear.horde.org/kronolith": "^3.0.5 <=4.0.0",
+        "pear-pear.horde.org/mnemo": "^3.0.1 <=4.0.0",
+        "pear-pear.horde.org/nag": "^3.0.2 <=4.0.0",
+        "pear-pear.horde.org/timeobjects": "^1.0.1 <=2.0.0",
+        "pear-pear.horde.org/turba": "^3.0.4 <=4.0.0",
+        "pear-pear.horde.org/Horde_Kolab_Server": "^1 <=2.0.0",
+        "pear-pear.horde.org/Horde_Kolab_Session": "^1 <=2.0.0",
+        "pear-pear.horde.org/Horde_Kolab_Storage": "^1 <=2.0.0",
+        "pear-pear.horde.org/Horde_Ldap": "^1 <=2.0.0",
+        "pear-pear.php.net/Net_SMTP": "^1.6",
+        "pear-pear.php.net/Net_Sieve": "*",
+        "pear-pear.php.net/Auth_SASL": "*"
+    },
+    "replace": {
+        "pear-pear.horde.org/kolab_webmail": "4.*",
+        "pear-horde/kolab_webmail": "4.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Kolab_webmail": "lib/"
+        }
+    }
+}
