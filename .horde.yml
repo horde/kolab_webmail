@@ -30,21 +30,25 @@ dependencies:
   required:
     php: ^5.2
     pear:
-      pear.horde.org/groupware: '*'
-      pear.horde.org/webmail: '*'
-      pear.horde.org/content: ^1 <=2.0.0
-      pear.horde.org/horde: ^4.0.7 <=5.0.0
-      pear.horde.org/imp: ^5.0.8 <=6.0.0
-      pear.horde.org/ingo: ^2.0.3 <=3.0.0
-      pear.horde.org/kronolith: ^3.0.5 <=4.0.0
-      pear.horde.org/mnemo: ^3.0.1 <=4.0.0
-      pear.horde.org/nag: ^3.0.2 <=4.0.0
-      pear.horde.org/timeobjects: ^1.0.1 <=2.0.0
-      pear.horde.org/turba: ^3.0.4 <=4.0.0
-      pear.horde.org/Horde_Kolab_Server: ^1 <=2.0.0
-      pear.horde.org/Horde_Kolab_Session: ^1 <=2.0.0
-      pear.horde.org/Horde_Kolab_Storage: ^1 <=2.0.0
-      pear.horde.org/Horde_Ldap: ^1 <=2.0.0
+      pear.horde.org/groupware:
+        version: '*'
+        conflicts: true
+      pear.horde.org/webmail:
+        version: '*'
+        conflicts: true
+      pear.horde.org/content: ^1
+      pear.horde.org/horde: ^4.0.7
+      pear.horde.org/imp: ^5.0.8
+      pear.horde.org/ingo: ^2.0.3
+      pear.horde.org/kronolith: ^3.0.5
+      pear.horde.org/mnemo: ^3.0.1
+      pear.horde.org/nag: ^3.0.2
+      pear.horde.org/timeobjects: ^1.0.1
+      pear.horde.org/turba: ^3.0.4
+      pear.horde.org/Horde_Kolab_Server: ^1
+      pear.horde.org/Horde_Kolab_Session: ^1
+      pear.horde.org/Horde_Kolab_Storage: ^1
+      pear.horde.org/Horde_Ldap: ^1
       pear.php.net/Net_SMTP: ^1.6
       pear.php.net/Net_Sieve: '*'
       pear.php.net/Auth_SASL: '*'
