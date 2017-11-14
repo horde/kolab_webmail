@@ -2,15 +2,15 @@
 <package packagerversion="1.9.2" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0     http://pear.php.net/dtd/tasks-1.0.xsd     http://pear.php.net/dtd/package-2.0     http://pear.php.net/dtd/package-2.0.xsd">
  <name>kolab_webmail</name>
  <channel>pear.horde.org</channel>
- <summary>Horde Kolab Edition</summary>
- <description>Horde Kolab Edition is a free, enterprise ready, browser based communication suite for the Kolab server. Users can read, send and organize email messages via a webmail interface and manage and share calendars, contacts, tasks and notes with the standards compliant components from the Horde Project.</description>
+ <summary>Horde Groupware Kolab Edition</summary>
+ <description>Horde Groupware Kolab Edition is a free, enterprise ready, browser based communication suite for the Kolab server. Users can read, send and organize email messages via a webmail interface and manage and share calendars, contacts, tasks and notes with the standards compliant components from the Horde Project.</description>
  <lead>
   <name>Gunnar Wrobel</name>
   <user>wrobel</user>
   <email>wrobel@horde.org</email>
   <active>yes</active>
  </lead>
- <date>2017-10-27</date>
+ <date>2017-11-14</date>
  <version>
   <release>4.0.0alpha1</release>
   <api>4.0.0alpha1</api>
@@ -150,97 +150,99 @@
     <name>content</name>
     <channel>pear.horde.org</channel>
     <min>1.0.0</min>
-    <max>2.0.0</max>
-    <exclude>2.0.0</exclude>
+    <max>2.0.0alpha1</max>
+    <exclude>2.0.0alpha1</exclude>
    </package>
    <package>
     <name>horde</name>
     <channel>pear.horde.org</channel>
     <min>4.0.7</min>
-    <max>5.0.0</max>
-    <exclude>5.0.0</exclude>
+    <max>5.0.0alpha1</max>
+    <exclude>5.0.0alpha1</exclude>
    </package>
    <package>
     <name>imp</name>
     <channel>pear.horde.org</channel>
     <min>5.0.8</min>
-    <max>6.0.0</max>
-    <exclude>6.0.0</exclude>
+    <max>6.0.0alpha1</max>
+    <exclude>6.0.0alpha1</exclude>
    </package>
    <package>
     <name>ingo</name>
     <channel>pear.horde.org</channel>
     <min>2.0.3</min>
-    <max>3.0.0</max>
-    <exclude>3.0.0</exclude>
+    <max>3.0.0alpha1</max>
+    <exclude>3.0.0alpha1</exclude>
    </package>
    <package>
     <name>kronolith</name>
     <channel>pear.horde.org</channel>
     <min>3.0.5</min>
-    <max>4.0.0</max>
-    <exclude>4.0.0</exclude>
+    <max>4.0.0alpha1</max>
+    <exclude>4.0.0alpha1</exclude>
    </package>
    <package>
     <name>mnemo</name>
     <channel>pear.horde.org</channel>
     <min>3.0.1</min>
-    <max>4.0.0</max>
-    <exclude>4.0.0</exclude>
+    <max>4.0.0alpha1</max>
+    <exclude>4.0.0alpha1</exclude>
    </package>
    <package>
     <name>nag</name>
     <channel>pear.horde.org</channel>
     <min>3.0.2</min>
-    <max>4.0.0</max>
-    <exclude>4.0.0</exclude>
+    <max>4.0.0alpha1</max>
+    <exclude>4.0.0alpha1</exclude>
    </package>
    <package>
     <name>timeobjects</name>
     <channel>pear.horde.org</channel>
     <min>1.0.1</min>
-    <max>2.0.0</max>
-    <exclude>2.0.0</exclude>
+    <max>2.0.0alpha1</max>
+    <exclude>2.0.0alpha1</exclude>
    </package>
    <package>
     <name>turba</name>
     <channel>pear.horde.org</channel>
     <min>3.0.4</min>
-    <max>4.0.0</max>
-    <exclude>4.0.0</exclude>
+    <max>4.0.0alpha1</max>
+    <exclude>4.0.0alpha1</exclude>
    </package>
    <package>
     <name>Horde_Kolab_Server</name>
     <channel>pear.horde.org</channel>
     <min>1.0.0</min>
-    <max>2.0.0</max>
-    <exclude>2.0.0</exclude>
+    <max>2.0.0alpha1</max>
+    <exclude>2.0.0alpha1</exclude>
    </package>
    <package>
     <name>Horde_Kolab_Session</name>
     <channel>pear.horde.org</channel>
     <min>1.0.0</min>
-    <max>2.0.0</max>
-    <exclude>2.0.0</exclude>
+    <max>2.0.0alpha1</max>
+    <exclude>2.0.0alpha1</exclude>
    </package>
    <package>
     <name>Horde_Kolab_Storage</name>
     <channel>pear.horde.org</channel>
     <min>1.0.0</min>
-    <max>2.0.0</max>
-    <exclude>2.0.0</exclude>
+    <max>2.0.0alpha1</max>
+    <exclude>2.0.0alpha1</exclude>
    </package>
    <package>
     <name>Horde_Ldap</name>
     <channel>pear.horde.org</channel>
     <min>1.0.0</min>
-    <max>2.0.0</max>
-    <exclude>2.0.0</exclude>
+    <max>2.0.0alpha1</max>
+    <exclude>2.0.0alpha1</exclude>
    </package>
    <package>
     <name>Net_SMTP</name>
     <channel>pear.php.net</channel>
     <min>1.6.0</min>
+    <max>2.0.0alpha1</max>
+    <exclude>2.0.0alpha1</exclude>
    </package>
    <package>
     <name>Net_Sieve</name>
@@ -306,7 +308,7 @@
     <release>alpha</release>
     <api>alpha</api>
    </stability>
-   <date>2017-10-27</date>
+   <date>2017-11-14</date>
    <license uri="http://www.horde.org/licenses/gpl">GPL-2.0</license>
    <notes>
 * First release candidate of Horde Groupware Kolab Edition 4.0.
